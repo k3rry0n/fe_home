@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Tahoma';
+	color: white;
+}
+
+body {
+	background: #000 url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/zwartevilt.png') repeat;
+}
+
+footer {
+	padding: 50px 60px;
+}
+
+.page {
+	background: #000 url('../img/background.jpg') top center no-repeat;
+	height: 900px;
+	width: 960px;
+	margin: auto;
+}
+
+/*HEADER*/
+header {
+	height: 200px;
+	padding-bottom: 0;
+}
+.logo {
+	display: inline-block;
+	padding-top: 50px;
+	padding-left: 60px;
+} 
+.contact-box{   
+	font-size: 10px;
+	float: right;
+	padding-top: 140px;
+	padding-right: 50px;
+}
+
+/* MAIN */
+main{
+	padding: 0 70px;
+}
+.photo-row:not(:first-child){
+	padding-top: 50px;
+}
+.photo-box{
+	display: inline-block;
+	width: 260px;
+	height: 175px;
+	margin: 0 5px;
+	margin-bottom: 20px;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+.photo-box img {
+	border: 1px solid white;
+}
+.photo-box p{
+	text-align: center;
+}
+
+/* FOOTER */
+footer{
+	text-align: center;
+	margin-top: 165px;
+}
