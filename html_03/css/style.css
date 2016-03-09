@@ -4,7 +4,18 @@
 
   font-family: 'Open Sans';
 }
-
+.clearfix:after{
+  position: relative;
+  content: " ";
+  visibility: hidden;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  text-decoration: underline;
+}
 .page{
   width: 960px;
   -webkit-box-shadow: 0px 5px 4px 2px rgba(0,0,0,0.75);
@@ -12,11 +23,11 @@
   box-shadow: 0px 5px 4px 2px rgba(0,0,0,0.75);
   padding: 50px 50px;
   margin: 0 auto;
+  background-color: #fff;
 }
 /*HEADER*/
 header{
   height: 130px;
-  background-color: #fff;
 }
 
 /*NAVBAR*/
@@ -35,13 +46,7 @@ ul.gradient{
   color: #fff;
   text-shadow: 1px 1px 0 #000;
 }
-ul.footer_navbar{
-  background-color: #e1e1e1;
-  font-size: 13.3px;
-}
-.footer_navbar li:last-child{
-  float: right;
-}
+
 li.menu-item{
   font-size: 13px;
   line-height: normal;
@@ -51,9 +56,7 @@ li.menu-item{
   padding: 10px 20px;
   margin-left: 50px;
   }
-footer li:last-child{
-  margin-right: 0;
-}
+
 li.menu-item:first-child{
   margin-left: 10px;
 }
@@ -68,7 +71,7 @@ main{
 .sidebar{
   float: left;
   padding-right: 40px;
-  height:600px;
+  height:550px;
 }
 .sidebar_menu{
   width: 240px;
@@ -86,7 +89,7 @@ main{
 .sidebar_menu__item:last-child{
   border-bottom: none;
 }
-.sidebar_menu__item:nth-child(3){
+.sidebar_menu__item:hover{
   color: #000;
   padding-left: 40px;
   background-color: #f9f9f9;
@@ -103,10 +106,21 @@ img{
   padding: 30px 20px;
 }
 /*FOOTER*/
-footer{
+footer {
+  padding: 10px;
+  font-size: 13.3px;
+  width: 100%;
+  height: 20px;
+  background-color: #E1E1E1;
 }
-.footer_navbar li:hover{
-  text-decoration: underline;
-  background-color: #e1e1e1;
-  border: none;
+footer ul {
+  list-style: none;
+}
+footer li {
+  padding: 0 20px;
+  float: left;
+}
+.copy {
+  float: right;
+  padding-right: 20px;
 }
