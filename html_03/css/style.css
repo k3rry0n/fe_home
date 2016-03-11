@@ -1,126 +1,157 @@
-*{
-  margin: 0;
-  padding: 0;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
 
-  font-family: 'Open Sans';
+.clearfix:after {
+    position: relative;
+    content: " ";
+    visibility: hidden;
 }
-.clearfix:after{
-  position: relative;
-  content: " ";
-  visibility: hidden;
-}
+
 a {
-  text-decoration: none;
-  color: #000;
+    text-decoration: none;
+    color: #000;
 }
+
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
-.page{
-  width: 960px;
-  -webkit-box-shadow: 0px 5px 4px 2px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 5px 4px 2px rgba(0,0,0,0.75);
-  box-shadow: 0px 5px 4px 2px rgba(0,0,0,0.75);
-  padding: 50px 50px;
-  margin: 0 auto;
-  background-color: #fff;
+
+.page {
+    width: 960px;
+    -webkit-box-shadow: 0px 5px 4px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 5px 4px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 5px 4px 2px rgba(0, 0, 0, 0.75);
+    padding: 50px 50px;
+    margin: 0 auto;
+    background-color: #fff;
 }
+
+
 /*HEADER*/
-header{
-  height: 130px;
+
+header {
+    height: 130px;
 }
+
 
 /*NAVBAR*/
-nav{
-  height: 40px;
-  list-style-type: none;
-  padding-top: 40px;
-}
-ul.navbar{
-  line-height: 0;
-  font-size: 0;
-  text-spacing: -1px;
-}
-ul.gradient{
-  background: linear-gradient(to bottom, #5e5e5e, #444343);
-  color: #fff;
-  text-shadow: 1px 1px 0 #000;
+
+nav {
+    height: 40px;
+    list-style-type: none;
+    padding-top: 40px;
 }
 
-li.menu-item{
-  font-size: 13px;
-  line-height: normal;
-  letter-spacing: normal;
-  display: inline-block;
-  text-align: center;
-  padding: 10px 20px;
-  margin-left: 50px;
-  }
+ul.navbar {
+    line-height: 0;
+    font-size: 0;
+    text-spacing: -1px;
+}
 
-li.menu-item:first-child{
-  margin-left: 10px;
+ul.gradient {
+    background: linear-gradient(to bottom, #5e5e5e, #444343);
+    color: #fff;
+    text-shadow: 1px 1px 0 #000;
 }
-.gradient li.menu-item:hover{
-  background-color: #343434;
+
+li.menu-item {
+    font-size: 13px;
+    line-height: normal;
+    letter-spacing: normal;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    margin-left: 50px;
 }
+
+li.menu-item:first-child {
+    margin-left: 10px;
+}
+
+.gradient li.menu-item:hover {
+    background-color: #343434;
+    cursor: pointer;
+}
+
 
 /*MAIN*/
-main{
-  padding-top: 20px;
-}
-.sidebar{
-  float: left;
-  padding-right: 40px;
-  height:550px;
-}
-.sidebar_menu{
-  width: 240px;
-  list-style-type: none;
-  border: 1px solid #c8c8c8;
-  display: inline-block;
 
-  font-size: 13px;
+main {
+    padding-top: 20px;
 }
+
+.sidebar {
+    float: left;
+    padding-right: 40px;
+    height: 550px;
+}
+
+.sidebar_menu {
+    width: 240px;
+    list-style-type: none;
+    border: 1px solid #c8c8c8;
+    display: inline-block;
+    font-size: 13px;
+}
+
 .sidebar_menu__item {
-  padding: 10px 20px;
-  border-bottom: 1px solid #c8c8c8;
-  color: #656363;
+    padding: 10px 20px;
+    border-bottom: 1px solid #c8c8c8;
+    color: #656363;
 }
-.sidebar_menu__item:last-child{
-  border-bottom: none;
-}
-.sidebar_menu__item:hover{
-  color: #000;
-  padding-left: 40px;
-  background-color: #f9f9f9;
-}
-.content{
-  margin: auto;
-}
-img{
-  display: block;
-}
-.content p{
-  font-size: 13px;
 
-  padding: 30px 20px;
+.sidebar_menu__item:last-child {
+    border-bottom: none;
 }
+
+.sidebar_menu__item:hover {
+    color: #000;
+    padding-left: 40px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.content {
+    margin: auto;
+}
+
+img {
+    display: block;
+}
+
+.content p {
+    font-size: 13px;
+    padding: 30px 20px;
+}
+
+
 /*FOOTER*/
+
 footer {
-  padding: 10px;
-  font-size: 13.3px;
-  width: 100%;
-  height: 20px;
-  background-color: #E1E1E1;
+    padding: 10px;
+    font-size: 13.3px;
+    width: 100%;
+    height: 20px;
+    background-color: #E1E1E1;
 }
+
 footer ul {
-  list-style: none;
+    list-style: none;
 }
+
 footer li {
-  padding: 0 20px;
-  float: left;
+    padding: 0 20px;
+    float: left;
 }
+
+footer li:hover {
+    cursor: pointer;
+}
+
 .copy {
-  float: right;
-  padding-right: 20px;
+    float: right;
+    padding-right: 20px;
 }
