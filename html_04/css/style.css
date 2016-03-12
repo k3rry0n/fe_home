@@ -1,3 +1,4 @@
+
 * {
 	margin: 0;
 	padding: 0;
@@ -7,9 +8,9 @@
 }
 
 body {
-	background: linear-gradient(to bottom, 
-		#1297b8, #1297b8 5%, 
-		#128aa7 5%, #128aa7 8%, 
+	background: linear-gradient(to bottom,
+		#1297b8, #1297b8 5%,
+		#128aa7 5%, #128aa7 8%,
 		#5ef0ff 8%, #5ef0ff 8.5%,
 		#11cde2 8.5%, #fff 40%,
 		#41c6d3 40%, #0c739f 90%,
@@ -32,7 +33,7 @@ a{
 	background-color: #fff;
 	width: 1000px;
 	box-shadow: 0 5px 5px #000;
-} 
+}
 
 /* HEADER */
 
@@ -66,7 +67,9 @@ header img.logo {
 	display: inline-block;
 	padding: 2px;
 }
-
+.countries li:hover {
+	cursor: pointer;
+}
 .country-item p{
 	text-align: center;
 	font-size: 10px;
@@ -109,6 +112,7 @@ ul.main-menu a {
 }
 .main-menu li:hover {
 	background-color: #201f1f;
+	cursor: pointer;
 }
 
 .main-menu > li:hover > .inner-menu {
@@ -124,7 +128,7 @@ ul.main-menu a {
 	height: 550px;
 }
 
-.sidebar p, 
+.sidebar p,
 .sidebar h4 {
 	text-align: center;
 	line-height: 25px;
