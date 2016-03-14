@@ -8,13 +8,8 @@
 }
 
 body {
-	background: linear-gradient(to bottom,
-		#1297b8, #1297b8 5%,
-		#128aa7 5%, #128aa7 8%,
-		#5ef0ff 8%, #5ef0ff 8.5%,
-		#11cde2 8.5%, #fff 40%,
-		#41c6d3 40%, #0c739f 90%,
-		#0c739f);
+	background: url('../img/background.png');
+	background-position: 0 -7px;
 }
 
 a{
@@ -29,7 +24,7 @@ a{
 }
 
 .container {
-	margin: 50px auto 0 auto;
+	margin: 0 auto 0 auto;
 	background-color: #fff;
 	width: 1000px;
 	box-shadow: 0 5px 5px #000;
