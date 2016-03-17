@@ -86,6 +86,7 @@ ul.main-menu li{
 	height: 28px;
 	display: inline-block;
 	line-height: 25px;
+	position: relative;
 }
 ul.main-menu a {
 	display: block;
@@ -114,6 +115,11 @@ ul.main-menu a {
 	display: block;
 }
 
+.main-menu li img {
+  position: absolute;
+  right: 15px;
+  top: 45%;
+}
 /* MAIN BLOCK */
 .sidebar {
 	background-color: #edeef0;
